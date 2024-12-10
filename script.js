@@ -49,6 +49,7 @@ form.addEventListener("submit", event => {
             textSpan.style.textDecoration = "line-through";
             textSpan.style.color = "green";
             purchasedButton.textContent = "Purchased";
+            li.style.backgroundColor = "gray"
         }
     });
     li.appendChild(purchasedButton);
